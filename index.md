@@ -156,3 +156,4 @@ To be clear:
 **By using ChipLog Pro, you agree to this Privacy Policy.**
 
 Last reviewed: February 4, 2026
+
