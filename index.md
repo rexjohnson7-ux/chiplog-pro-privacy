@@ -1,159 +1,237 @@
-# Privacy Policy for ChipLog Pro
+<!DOCTYPE html>
+<html lang="en">
 
-**Effective Date:** February 4, 2026  
-**Last Updated:** February 4, 2026
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ChipLog Pro | Long Run Investments</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 0;
+        }
 
-## Introduction
+        .privacy-content h2 {
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
 
-ChipLog Pro ("the App") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our AI-powered electronic component scanner application.
+        .privacy-content p,
+        .privacy-content li {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 0.5rem;
+        }
 
-## Data Collection
+        .privacy-content ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
 
-**ChipLog Pro does not collect, store, or transmit any personal information.**
+        .privacy-content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
 
-The App operates entirely on your device and does not:
-- Collect personal data (name, email, phone number, etc.)
-- Track your location
-- Gather usage analytics
-- Share data with third parties
-- Require user accounts or registration
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
 
-## Camera Permission
+        .summary-item {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
 
-ChipLog Pro requires access to your device's camera to function properly.
+        .last-updated {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.15);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 6px;
+            padding: 4px 12px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
 
-**How we use camera access:**
-- Capture images of electronic components for identification
-- Process images locally on your device
-- Transmit images securely to our AI analysis service (see "AI Image Analysis" below)
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="index.html" style="color:var(--text-primary);">Long Run Investments</a></div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="chiplog-pro.html">Our Apps</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-**We do NOT:**
-- Store captured images on external servers
-- Use camera for any purpose other than component scanning
-- Access your photo library without explicit permission
-- Record video or audio
+    <main class="container">
+        <div class="privacy-content">
+            <h1>Privacy Policy for ChipLog Pro</h1>
+            <span class="last-updated">Last Updated: April 7, 2026</span>
 
-## Local Storage
+            <h2>Introduction</h2>
+            <p>ChipLog Pro ("the App") is committed to protecting your privacy. This Privacy Policy explains how we
+                handle information when you use our AI-powered object identification scanner application.</p>
 
-All scanned component data is stored **locally on your device** using IndexedDB (browser storage).
+            <h2>Data Collection</h2>
+            <p>ChipLog Pro does not collect, store, or transmit any personal information. The App operates primarily on
+                your device and does <strong>NOT:</strong></p>
+            <ul>
+                <li>Collect personal data (name, email, phone number, etc.)</li>
+                <li>Track your location</li>
+                <li>Link usage analytics, scans, or vault data to your personal identity</li>
+                <li>Share data with third parties beyond what is described below</li>
+                <li>Require user accounts or registration</li>
+            </ul>
 
-**What is stored locally:**
-- Component identification results (part numbers, manufacturers, descriptions)
-- Captured images associated with scans
-- Project information and metadata
-- User preferences (theme settings)
+            <h2>Camera Permission</h2>
+            <p>ChipLog Pro requires access to your device's camera for scanning objects. How we use camera access:</p>
+            <ul>
+                <li>Capture images of objects for identification</li>
+                <li>Transmit images securely to our AI analysis service (see "AI Image Analysis" below)</li>
+            </ul>
+            <p>We do NOT:</p>
+            <ul>
+                <li>Store captured images on external servers</li>
+                <li>Use camera for any purpose other than object scanning</li>
+                <li>Access your photo library without explicit permission</li>
+                <li>Record video or audio</li>
+            </ul>
 
-**Data control:**
-- You have full control over your data
-- Data can be deleted at any time via the "Purge Vault" feature
-- Uninstalling the app removes all local data
-- No data backup or cloud sync
+            <h2>Local Storage</h2>
+            <p>All scanned object data is stored locally on your device. What is stored locally:</p>
+            <ul>
+                <li>Object identification results (part numbers, manufacturers, descriptions)</li>
+                <li>Captured images associated with scans</li>
+                <li>Project information and metadata</li>
+                <li>User preferences (theme settings)</li>
+            </ul>
+            <p>Data control:</p>
+            <ul>
+                <li>You have full control over your data</li>
+                <li>Data can be deleted at any time via the "Purge Vault" feature</li>
+                <li>Uninstalling the app removes all local data</li>
+                <li>No data backup or cloud sync</li>
+            </ul>
 
-## AI Image Analysis
+            <h2>AI Image Analysis</h2>
+            <p>ChipLog Pro uses a third-party Artificial Intelligence service to identify objects from captured images. How it
+                works:</p>
+            <ol>
+                <li>You capture an image using the app</li>
+                <li>Image is securely transmitted to our AI provider</li>
+                <li>AI analyzes the image and returns identification data</li>
+                <li>Results are displayed in the app and saved locally</li>
+            </ol>
+            <p>Data handling during AI analysis:</p>
+            <ul>
+                <li>Images are transmitted securely using HTTPS encryption</li>
+                <li>Images are processed by our AI provider</li>
+                <li>Images are <strong>NOT</strong> stored by our AI provider after analysis</li>
+                <li>Only the identification results (text data) are returned to the app</li>
+                <li>No personal information is included in API requests</li>
+            </ul>
+            <p>Our AI provider processes your images momentarily for the sole purpose of identifying the object. Once the identification is complete, the image data is discarded from the processing servers. Our AI provider is strictly prohibited from using your transmitted images to train their AI models.</p>
 
-ChipLog Pro uses Google's Gemini AI API to identify electronic components from captured images.
+            <h2>In-App Purchases</h2>
+            <p>ChipLog Pro offers a Pro subscription through Apple's App Store in-app purchase system. Subscription
+                payments are processed entirely by Apple. Long Run Investments LLC does not collect or store any payment
+                information. Subscriptions are managed via your Apple ID settings.</p>
 
-**How it works:**
-1. You capture an image using the app
-2. Image is transmitted via secure HTTPS to our backend proxy server
-3. The proxy forwards the image to Google's Gemini API
-4. AI analyzes the image and returns identification data
-5. Results are displayed in the app
+            <h2>Data Export</h2>
+            <p>ChipLog Pro allows you to export your scanned data (PDF or ZIP). Exported data is:</p>
+            <ul>
+                <li>Saved locally to your device</li>
+                <li>Shared via your device's native share sheet</li>
+                <li>Under your complete control</li>
+                <li>Not transmitted to external servers</li>
+            </ul>
 
-**Data handling during AI analysis:**
-- Images are transmitted securely using HTTPS encryption
-- Images are processed by Google's Gemini AI service
-- Images are **not stored** by our backend or Google's service after analysis
-- Only the identification results (text data) are returned to the app
-- No personal information is included in API requests
+            <h2>Third-Party Services</h2>
+            <p>ChipLog Pro uses the following third-party services:</p>
+            <ul>
+                <li><strong>Third-Party AI Analysis</strong> — Purpose: AI-powered component identification. Data shared:
+                    Captured images (temporarily, for analysis only).</li>
+                <li><strong>RevenueCat</strong> — Purpose: Manages in-app subscriptions and unlocks premium features. Data shared: Anonymous app-user IDs and purchase history to validate subscriptions securely.</li>
+                <li><strong>PostHog</strong> — Purpose: Anonymous product telemetry to understand aggregate app usage, identify crashes, and improve the app. Data shared: Anonymous usage events (e.g., "scan initiated", "vault item saved"). This data is strictly non-personally identifiable.</li>
+            </ul>
+            <p>No advertising SDKs or cross-site tracking systems are included in the app. Your Vault contents are never sent to analytics providers.</p>
 
-**Google Gemini Privacy:**
-Images sent to Gemini are subject to Google's privacy policy and data processing practices. According to Google's enterprise API terms, data sent via API is not used to train AI models. For more information, see: https://policies.google.com/privacy
+            <h2>Data Security</h2>
+            <p>We implement appropriate security measures to protect data:</p>
+            <ul>
+                <li>HTTPS encryption for all network communications</li>
+                <li>Secure authentication tokens for API access</li>
+                <li>App secret validation to prevent unauthorized API access</li>
+                <li>Local data stored securely on your device</li>
+            </ul>
 
-## Data Export
+            <h2>Your Rights</h2>
+            <p>You have the following rights regarding your data:</p>
+            <ul>
+                <li><strong>Access:</strong> All data is stored locally and accessible within the app</li>
+                <li><strong>Deletion:</strong> Use "Purge Vault" to delete all scanned data, or delete individual items
+                </li>
+                <li><strong>Export:</strong> Export your data at any time via PDF or ZIP</li>
+                <li><strong>Control:</strong> Complete control over what you scan and save</li>
+            </ul>
 
-ChipLog Pro allows you to export your scanned data in two formats:
+            <h2>Children's Privacy</h2>
+            <p>ChipLog Pro does not knowingly collect data from children under the age of 13. The App is designed for
+                professional and hobbyist use in electronics work.</p>
 
-- **PDF:** Multi-page document with component details and images
-- **ZIP:** Contains a CSV spreadsheet and high-resolution images
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last
+                Updated" date at the top of this policy. Significant changes will be highlighted in app update notes.
+                Continued use of the App after changes constitutes acceptance.</p>
 
-**Exported data:**
-- Saved locally to your device
-- Shared via your device's native share sheet
-- Under your complete control
-- Not transmitted to external servers
+            <h2>Contact Information</h2>
+            <p>If you have questions about this Privacy Policy or how ChipLog Pro handles data, please contact:</p>
+            <p><strong>Long Run Investments LLC</strong><br>
+                Email: <a href="mailto:support@longruninv.com">support@longruninv.com</a><br>
+                Support page: <a href="support.html">longruninv.com/support</a></p>
 
-## Third-Party Services
+            <h2>Compliance</h2>
+            <p>This Privacy Policy is designed to comply with:</p>
+            <ul>
+                <li>Apple App Store Review Guidelines</li>
+                <li>General Data Protection Regulation (GDPR) principles</li>
+                <li>California Consumer Privacy Act (CCPA) principles</li>
+            </ul>
 
-ChipLog Pro uses the following third-party services:
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">✅ No personal data collection</div>
+                <div class="summary-item">✅ Anonymous telemetry only</div>
+                <div class="summary-item">✅ All data stored locally on your device</div>
+                <div class="summary-item">✅ Images sent to AI service only for analysis (not stored)</div>
+                <div class="summary-item">✅ You control all your data</div>
+                <div class="summary-item">✅ No advertising or third-party sharing</div>
+            </div>
+        </div>
+    </main>
 
-**Google Gemini API:**
-- Purpose: AI-powered component identification
-- Data shared: Captured images (temporarily, for analysis only)
-- Privacy Policy: https://policies.google.com/privacy
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Long Run Investments LLC. All rights reserved.</p>
+            <p><a href="index.html">Home</a> | <a href="support.html">Support</a></p>
+        </div>
+    </footer>
+</body>
 
-**No other third-party services** (no analytics, advertising, or tracking SDKs)
-
-## Data Security
-
-We implement appropriate security measures to protect data:
-
-- HTTPS encryption for all network communications
-- Secure authentication tokens for API access
-- App secret validation to prevent unauthorized API access
-- Local data stored using IndexedDB with browser security protections
-
-## Your Rights
-
-You have the following rights regarding your data:
-
-- **Access:** All data is stored locally and accessible within the app
-- **Deletion:** Use "Purge Vault" to delete all scanned data, or delete individual items
-- **Export:** Export your data at any time via PDF or ZIP
-- **Control:** Complete control over what you scan and save
-
-## Children's Privacy
-
-ChipLog Pro does not knowingly collect data from children under the age of 13. The App does not target children and is designed for professional and hobbyist use in electronics work.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date at the top of this policy.
-
-**How you'll be notified:**
-- Updates will be published in the App Store listing
-- Significant changes will be highlighted in app update notes
-- Continued use of the App after changes constitutes acceptance
-
-## Contact Information
-
-If you have questions about this Privacy Policy or how ChipLog Pro handles data, please contact:
-
-**Email:** rex.johnson7@gmail.com  
-**Developer:** Rex Johnson  
-**Support:** https://github.com/rexjohnson/chiplog-pro
-
-## Compliance
-
-This Privacy Policy is designed to comply with:
-- Apple App Store Review Guidelines
-- Google Play Store Developer Policies
-- General Data Protection Regulation (GDPR) principles
-- California Consumer Privacy Act (CCPA) principles
-
-## Summary
-
-To be clear:
-- ✅ **No personal data collection**
-- ✅ **No user tracking or analytics**
-- ✅ **All data stored locally on your device**
-- ✅ **Images sent to AI service only for analysis (not stored)**
-- ✅ **You control all your data**
-- ✅ **No advertising or third-party sharing**
-
----
-
-**By using ChipLog Pro, you agree to this Privacy Policy.**
-
-Last reviewed: February 4, 2026
-
+</html>
